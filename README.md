@@ -14,3 +14,7 @@ The dataset is hosted in a public S3 bucket as part of the [Amazon S3 Open Data 
 5. Plot the number of occurrences of the token `data` over the years.
 
 ## Project Organization
+1. `setup_steps.pdf` - This document contains the steps for setting up an EMR cluster and reading data from the S3 bucket on the local system.
+2. `pyspark_notebook.ipynb` - Spark notebook to be run on EMR cluster and doing analysis on Google Books Ngrams data.
+3. `ngramLocal.csv` - CSV of the filtered data, downloaded from the cluster.
+4. `local_notebook_plot.ipynb` - This notebook reads the downloaded csv and plots the frequency of the relevant token.
